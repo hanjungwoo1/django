@@ -13,3 +13,4 @@ def detail(request, question_id):
     quest = get_object_or_404(Question, pk=question_id)
     context = {'question': quest}
     return render(request, 'pybo/question_detail.html', context)
+
