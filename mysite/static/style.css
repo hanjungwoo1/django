@@ -1,8 +1,11 @@
 textarea {
     width:100%;
-    background-color : red;
 }
 
 input[type=submit] {
     margin-top:10px;
+}
+
+#cherry {
+    color : blue;
 }
